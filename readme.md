@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Assuming you're using WSL, do the following:
+
+1️⃣ In your WSL2 environment, follow the [Linux install instructions](https://docs.docker.com/engine/install/ubuntu/).
+
+2️⃣ Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/wsl/). It'll prompt you to log out and login again, but after that, it should be properly installed.
+
+3️⃣ Clone the repo to your machine, and inside the root directory, run `docker-compose up` to run the app. Go to http://localhost:3000/api/ping to test if everything is working properly!
